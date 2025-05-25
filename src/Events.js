@@ -3,10 +3,17 @@ import axios from 'axios';
 export default function Events(){
     const [events, setEvents] = useState([]);
     const [displayAll,setAll] = useState(true);
-    const [query, setQuery] = useState([]);
-    
+    const [search, setSearch] = useState({
+        query: ""    
+    })
+    const [results, setResult] = useState([]);
+
     const handleClick = () => {
         setAll((prev) => !prev)
+    }
+
+    const handleSearch = (e) => {
+        setSearch((prev)=> ({...prev, [e.target.name]: e.target.value}));
     }
 
 
