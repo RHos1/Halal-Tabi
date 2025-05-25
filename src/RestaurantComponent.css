@@ -1,0 +1,108 @@
+.RestaurantComponent{
+    margin-left: 1.4rem;
+}
+
+.RestaurantComponent{
+    font-size: 1.8rem;
+}
+.RestaurantComponent > h1{
+    margin-left: 15rem;
+}
+
+.MapContainer{
+    margin-left: 12rem;
+    margin-top: 1.4rem;
+}
+
+.MapContainer > iframe{
+    width: 20vw;
+    height: 30vh;
+}
+
+
+
+
+.AddInfo > h1{
+    font-size: 2rem;
+    
+}
+
+.AddInfo{
+    display: flex;
+    flex-direction: column;
+    width: 60vw;
+}
+
+.AddInfo > h1{
+    margin-left: 16.5rem;
+    margin-bottom: 0.7rem;
+    font-size: 2rem;
+}
+.AddInfo > a{
+    text-decoration: none;
+    font-weight: 600;
+    color: black;
+    margin-left: 16.5rem;
+    font-size: 1.2rem;
+}
+.AddInfo > p{
+    margin-left: 16.5rem;
+    margin-bottom: 0.7rem;
+    font-weight: 500;
+    font-size: 1.3rem;
+}
+.AddInfo > a{
+    text-decoration: none;
+    font-weight: 600;
+    color: black;
+    margin-left: 16.5rem;
+    font-size: 1.2rem;
+}
+.AddInfo > p{
+    font-weight: 500;
+    font-size: 1.3rem;
+}
+
+.Hours{
+    width: 20vw;
+    height: 65vh;
+    background-color: white;
+    border-style: solid;
+    border-color: grey;
+    border-radius: 1.4rem;
+    margin-left: 2rem;
+    margin-top: 1.8rem;
+    
+}
+
+.Hours > h1{
+    margin-left: 1.4rem;
+}
+.RestaurantContainer{
+    display: flex;
+    flex-direction: row;
+    width: 90vw;
+}
+
+.Text-Contents{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.Days{
+    display: flex;
+    flex-direction: column;
+    margin-left: 1.2rem;
+    
+
+}
+
+.Days > p{
+    font-weight: 500;
+    font-size: 1.1rem;
+    
+    
+}
+
+
