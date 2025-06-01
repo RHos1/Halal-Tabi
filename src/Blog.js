@@ -153,7 +153,7 @@ export default function Blog()
 
     </div>
 
-    <h1 className="Title" onClick={()=> handleToggle(state)}>Show More</h1>
+    <h1 className="Show" onClick={()=> handleToggle(state)}>Show More</h1>
     
     {state && (<div className="allBlogs">
         {blogs.map((blog) => {

@@ -631,6 +631,13 @@
 .Title{
   margin-left: 6rem;
 }
+
+.Show{
+    margin-left: 6rem;  
+}
+.Show:hover{
+  cursor: pointer;
+}
 .Event > h1{
   font-size: 1.8rem;
 }

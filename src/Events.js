@@ -89,9 +89,27 @@ export default function Events(){
 
         </div>)
     }) }
-    {display && <section>
+    
+
+    <h1 className="Show" onClick = {() => handleClick()}>Show More</h1>
+    
+    {displayAll && (<div className="allBlogs">
+        {events.map((event) => {
+            return(
+            <div key = {event.events_id} className="blogPrev">
+                <div className="blogImg">
+                    <img src= {event.Image} ></img>
+                    <div className="bottom-left">{event.event_title}</div>
+
+                </div>
+                
         
-        </section>}
+
+            </div>
+            )
+        })}
+        
+    </div>)}
     
     </>
 
